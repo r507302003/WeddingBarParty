@@ -1,0 +1,387 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="../styles/calform.css" rel="stylesheet" />
+<link rel="shortcut icon" href="../fonts/favicon.ico"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../styles/component.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="../Scripts/modernizr.custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="../Scripts/jquery.dlmenu.js"></script>
+<script src="../Scripts/formcalculations.js"></script>
+<title>Wedding.Bar.Party</title>
+    
+<style type="text/css">
+
+body {
+    background-color: #fefaf8;
+    margin: 0;
+	padding: 0;
+	color: #2c2b28;
+    background-image: url('../images/bground.png');
+    background-size: 40%; 
+    z-index: 0;
+    }
+h1, h2, h3, h4, h5, h6, p {
+    color: #2c2b28;
+	margin-top: 0;
+    font-size: 1.2em; 
+    text-align:center; 
+    font-family: sans-serif; 
+}
+    
+.center {
+  text-align: center;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #42413C;
+	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #2c2b28;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	text-decoration: none;
+}
+/* ~~ This fixed width container surrounds all other blocks ~~ */
+.container {
+    color: #2c2b28;
+	width: 100%;
+	background-color: #fff;
+	margin: center; /* the auto value on the sides, coupled with the width, centers the layout */
+    padding: auto;
+    padding-top: auto;
+}
+/* ~~ The header is not given a width. It will extend the full width of your layout. ~~ */
+    
+    
+.carousel-inner{
+    width: 100%;
+    position: relative; 
+    margin-left: auto;
+}
+    
+#myCarousel{
+    position: relative; 
+    margin: auto;
+    height: auto; 
+    z-index: 0;
+}
+    
+.column {
+    float: center;
+    width: 100%;
+    border: auto;
+    }
+
+
+/* ~~ The footer ~~ */
+footer {
+	padding: auto;
+	background-color: #fff;
+	position: relative;/* this gives IE6 hasLayout to properly clear */
+	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
+}
+
+/*HTML 5 support - Sets new HTML 5 tags to display:block so browsers know how to render the tags properly. */
+header, section, footer, aside, article, figure {
+	display: block;
+}
+-->
+</style><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]--></head>
+
+    
+<body>
+<!-- Messenger 洽談外掛程式 Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your 洽談外掛程式 code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "108032591055907");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v12.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+<script>//<!--
+    function setCopyright() {
+    var currentTime = new Date()
+    var day = currentTime.getDate()
+    var month = currentTime.getMonth()
+    var year = currentTime.getFullYear()
+    document.write("&nbsp;&nbsp;&nbsp;&nbsp;<font FACE=\"Arial,Helvetica\" SIZE=\"-1\" COLOR=\"black\">&#169; 2020-",year," Wedding.Bar.Party.專屬你的婚禮調酒師 </font> ");
+}
+
+  
+//--></script>
+     <div id="dl-menu" class="dl-menuwrapper">
+        <button class="dl-trigger">Open Menu</button>
+        <ul class="dl-menu">
+            <li>  <a href="indexWBP.html">&#127882; HOME </a></li>
+            <li>  <a href="priceNcal.html">活動流程/計價方式 &#129347;</a></li>
+            <li>  <a href="cupsNsign.html">&#127865; 器皿選擇/立牌設計</a></li>
+            <li>  <a href="softNbubble.html">無酒精飲品/泡泡調酒 &#127870; </a></li>
+            <li>  <a href="expNcall.html">&#127864; 調酒師簡歷/預約服務</a></li>
+            <li>  <a href="gallery.html">幸福分享  &#128149; &#128149;</a></li>
+        </ul>
+    </div><!-- /dl-menuwrapper -->
+    
+    <script>
+        $(function() {
+            $( '#dl-menu' ).dlmenu();
+        });
+    </script>
+    
+<div class="container">
+<section>
+ <header> 
+
+    <a href="indexWBP.html">
+        <img src="../images/nav.jpg" alt="topbanner" width="100%"></a>    
+ </header>
+    
+    
+    <!--   活動流程  --> 
+    
+  <div class="column">
+      <img src="../images/price1.jpg"  width="100%"> <br/>  
+      <img src="../images/price2.jpg"  width="100%">
+</div> 
+    <br/>
+ 
+     <!--  計價小程式 --> 
+    <div id="wrap" width="100%">
+        <form action="" id="cakeform" onsubmit="return false;">
+        <div>
+            <div class="cont_order">
+               <fieldset>
+                <legend>預定價錢估算</legend>
+                ＊ 基本價：$5000元 <br/>&nbsp;&nbsp;&nbsp;&nbsp; 包含調酒師2小時費用、調酒器具、冰塊,及兩款客製化調酒款式.
+                <br/>&nbsp;&nbsp;&nbsp;&nbsp; 客製化調酒研發完,會與新人試酒一次,以確認酒款.
+                <br/><br/>
+                ＊ 其他費用：請點選以下選項來估算總共花費.<br/><br/>
+                <label> &ensp;&ensp;&ensp;&ensp;需求杯數:＄110/杯&nbsp;&nbsp;</label>
+                <input onblur="calculateTotal()" type="text" name="cups" id="cups"/>
+                <br/><br/>
+                ＊ 器皿選擇：採用一次性航空杯,PS材質,具高顯色特性,質感佳,較普通塑膠杯堅固.以下請選擇兩種器皿來粗估價錢.<br/><br/>
+
+                <label> &ensp;&ensp;&ensp;&ensp;器皿選擇一  &nbsp;&nbsp;</label>
+                <select id="cupType1" name='cupType1' onchange="calculateTotal()">
+                <option value="A">Ａ 200ML($10/杯)</option>
+                <option value="B">Ｂ 135ML($10/杯)</option>
+                <option value="C">Ｃ 200ML($10/杯)</option>
+                <option value="D">Ｄ 160ML($12/杯)</option>
+                <option value="E">Ｅ 360ML($35/杯)</option>
+                <option value="F">Ｆ 150ML($12/杯)</option>
+                <option value="G1">Ｇ1 160ML($8/杯)</option>
+                <option value="G2">Ｇ2 160ML($8/杯)</option>
+                <option value="G3">Ｇ3 160ML($8/杯)</option>
+                <option value="G4">Ｇ4 160ML($8/杯)</option>
+                <option value="H">Ｈ 250ML($12/杯)</option>
+                <option value="I1">Ｉ1 270ML($15/杯)</option>
+                <option value="I2">Ｉ2 270ML($15/杯)</option>
+                <option value="I3">Ｉ3 270ML($15/杯)</option>
+                <option value="I4">Ｉ4 270ML($15/杯)</option>
+                <option value="I5">Ｉ5 270ML($15/杯)</option>
+                <option value="I6">Ｉ6 270ML($15/杯)</option>
+                <option value="J1">Ｊ1 160ML($18/杯)</option>
+                <option value="J2">Ｊ2 160ML($18/杯)</option>
+                <option value="J3">Ｊ3 160ML($18/杯)</option>   
+                <option value="K">Ｋ 150ML($15/杯)</option>
+                <option value="L">Ｌ 270ML($20/杯)</option>
+                <option value="M1">Ｍ1 210ML($10/杯)</option>
+                <option value="M2">Ｍ2 210ML($10/杯)</option>
+                <option value="N">Ｎ 180ML($20/杯)</option>
+                <option value="O">Ｏ 130ML($10/杯)</option>
+                <option value="P">Ｐ 150ML($12/杯)</option>
+                <option value="Q1">Ｑ1 150ML($18/杯)</option>
+                <option value="Q2">Ｑ2 360ML($22/杯)</option>
+                <option value="Q3">Ｑ3 480ML($28/杯)</option>
+                <option value="R1">Ｒ1 210ML($18/杯)</option>
+                <option value="R2">Ｒ2 210ML($18/杯)</option>
+                <option value="S">Ｓ 150ML($12/杯)</option>
+                <option value="T1">Ｔ1 220ML($8/杯)</option>
+                <option value="V1">Ｖ1 190ML($15/杯)</option>
+                <option value="V2">Ｖ2 200ML($18/杯)</option>
+                <option value="W1">Ｗ1 200ML($18/杯)</option>
+                <option value="W2">Ｗ2 200ML($18/杯)</option>
+                <option value="X1">Ｘ1 350ML($15/杯)</option>
+                <option value="X2">Ｘ2 200ML($12/杯)</option>
+                <option value="X3">Ｘ3 200ML($12/杯)</option>
+                <option value="X4">Ｘ4 200ML($12/杯)</option>
+                <option value="S1">仙女雙層杯Ａ款($22/杯)</option>
+                <option value="S2">仙女雙層杯Ｂ款($22/杯)</option>
+                </select><br/><br/>
+                <label> &ensp;&ensp;&ensp;&ensp;器皿選擇二  &nbsp;&nbsp;</label>
+                <select id="cupType2" name='cupType2' onchange="calculateTotal()">
+                <option value="A">Ａ 200ML($10/杯)</option>
+                <option value="B">Ｂ 135ML($10/杯)</option>
+                <option value="C">Ｃ 200ML($10/杯)</option>
+                <option value="D">Ｄ 160ML($12/杯)</option>
+                <option value="E">Ｅ 360ML($35/杯)</option>
+                <option value="F">Ｆ 150ML($12/杯)</option>
+                <option value="G1">Ｇ1 160ML($8/杯)</option>
+                <option value="G2">Ｇ2 160ML($8/杯)</option>
+                <option value="G3">Ｇ3 160ML($8/杯)</option>
+                <option value="G4">Ｇ4 160ML($8/杯)</option>
+                <option value="H">Ｈ 250ML($12/杯)</option>
+                <option value="I1">Ｉ1 270ML($15/杯)</option>
+                <option value="I2">Ｉ2 270ML($15/杯)</option>
+                <option value="I3">Ｉ3 270ML($15/杯)</option>
+                <option value="I4">Ｉ4 270ML($15/杯)</option>
+                <option value="I5">Ｉ5 270ML($15/杯)</option>
+                <option value="I6">Ｉ6 270ML($15/杯)</option>
+                <option value="J1">Ｊ1 160ML($18/杯)</option>
+                <option value="J2">Ｊ2 160ML($18/杯)</option>
+                <option value="J3">Ｊ3 160ML($18/杯)</option>   
+                <option value="K">Ｋ 150ML($15/杯)</option>
+                <option value="L">Ｌ 270ML($20/杯)</option>
+                <option value="M1">Ｍ1 210ML($10/杯)</option>
+                <option value="M2">Ｍ2 210ML($10/杯)</option>
+                <option value="N">Ｎ 180ML($20/杯)</option>
+                <option value="O">Ｏ 130ML($10/杯)</option>
+                <option value="P">Ｐ 150ML($12/杯)</option>
+                <option value="Q1">Ｑ1 150ML($18/杯)</option>
+                <option value="Q2">Ｑ2 360ML($22/杯)</option>
+                <option value="Q3">Ｑ3 480ML($28/杯)</option>
+                <option value="R1">Ｒ1 210ML($18/杯)</option>
+                <option value="R2">Ｒ2 210ML($18/杯)</option>
+                <option value="S">Ｓ 150ML($12/杯)</option>
+                <option value="T1">Ｔ1 220ML($8/杯)</option>
+                <option value="V1">Ｖ1 190ML($15/杯)</option>
+                <option value="V2">Ｖ2 200ML($18/杯)</option>
+                <option value="W1">Ｗ1 200ML($18/杯)</option>
+                <option value="W2">Ｗ2 200ML($18/杯)</option>
+                <option value="X1">Ｘ1 350ML($15/杯)</option>
+                <option value="X2">Ｘ2 200ML($12/杯)</option>
+                <option value="X3">Ｘ3 200ML($12/杯)</option>
+                <option value="X4">Ｘ4 200ML($12/杯)</option>
+                <option value="S1">仙女雙層杯Ａ款($22/杯)</option>
+                <option value="S2">仙女雙層杯Ｂ款($22/杯)</option>
+                
+                </select>
+                <br/><br/>  
+                <label> &ensp;&ensp;&ensp;&ensp;追加時間 ＄1000/H&nbsp;&nbsp;</label>
+                <select id="hr" name='hr' onchange="calculateTotal()">
+                <option value="None">無需追加時間&ensp;&ensp;&ensp;</option>
+                <option value="1H">一小時</option>
+                <option value="2H">兩小時</option>
+                <option value="3H">三小時</option>
+                <option value="4H">四小時</option>
+                <option value="5H">五小時</option>
+                </select>
+                <br/><br/>   
+                <label > &ensp;&ensp;&ensp;&ensp;場地縣市&nbsp;&nbsp;</label>
+                <select id="distance" name='distance' onchange="calculateTotal()">
+                <option value="None">台北/新北市 (免費)&ensp;&ensp;</option>
+                <option value="Keelung">基隆($600)&ensp;&ensp;</option>
+                <option value="Taoyuan">桃園($800)&ensp;&ensp;</option>
+                <option value="Yilan">宜蘭縣($1500)&ensp;&ensp;</option>
+                <option value="Hsinchu">新竹市($1600)&ensp;&ensp;</option>
+                <option value="Miaoli">苗栗縣($2000)&ensp;&ensp;</option>
+                <option value="Taichung">台中市($3000)&ensp;&ensp;</option>
+                <option value="Changhua">彰化($3500)&ensp;&ensp;</option>
+                <option value="Hualien">花蓮縣($4200)&ensp;&ensp;</option>
+                <option value="Nantou">雲林縣/南投縣($4500)&ensp;&ensp;</option>
+                <option value="Chiayi">嘉義($5000)&ensp;&ensp;</option>
+                <option value="Kaohsiung">高雄市/台南市($6000)&ensp;&ensp;</option>
+                <option value="Taitung">屏東/台東縣($7500)&ensp;&ensp;</option>
+               </select>
+                <br/><br/>
+                 ＊ 額外增購區：<br/><br/>
+                <label for='extraBartender' class="inlinelabel"> &ensp;&ensp;&ensp;&ensp;多加一位調酒師 ($5000)&nbsp;</label>
+                <input type="checkbox" id="extraBartender" class="checkboxes"  name='extraBartender' onclick="calculateTotal()" /><br/>
+                <label for='customSign' class="inlinelabel">&nbsp;&nbsp;&nbsp;&nbsp;客製化立牌設計 ($2000)</label>
+                <input type="checkbox" id="customSign" class="checkboxes" name='customSign' onclick="calculateTotal()" /><br/><br/>
+                    
+                <label> &ensp;&ensp;&ensp;&ensp;無酒精飲品&nbsp;</label>
+                <select id="nAlcohol" name='nAlcohol' onchange="calculateTotal()">
+                <option value="None">不需要</option>
+                <option value="50ppl">50人份 ($1000)&ensp;&ensp;</option>
+                <option value="100ppl">100人份 ($1700)&ensp;&ensp;</option>
+                <option value="150ppl">150人份 ($2500)&ensp;&ensp;</option>
+                </select><br/><br/>
+                   
+                <label> &ensp;&ensp;&ensp;&ensp;立體火鶴吸管 ($8/隻) &nbsp;</label>
+                <input onblur="calculateTotal()" type="text" name="straw" id="straw" />            
+                <br/>
+                <label> &ensp;&ensp;&ensp;&ensp;可食用煙燻泡泡 ($50/球) &nbsp;</label>
+                <input onblur="calculateTotal()" type="text" name="bubble" id="bubble" />             
+                <br/>
+                <label> &ensp;&ensp;&ensp;&ensp;星空酒迎賓禮方案 ($280/瓶) &nbsp;</label>
+                <input onblur="calculateTotal()" type="text" name="star" id="star" />            
+                <br/><br/>
+                   
+                   
+                <label for='' class="inlinelabel">＊ 活動後分享花絮可折抵 $1000&nbsp;</label>
+               <input type="checkbox" id="getdiscount" name='discount' class="checkboxes" onclick="calculateTotal()" /><br/> <br/>
+
+                <div id="totalPrice"></div>
+                
+                </fieldset>
+            </div>
+
+        </div>  
+       </form>
+	</div>
+    <!--End of wrap-->
+    
+    <!--  Copyright -->
+    <div> 
+    <p>&nbsp;</p>
+      <div class="homelink">
+      <div id="footer"><script language="JavaScript">//<!--
+    setCopyright(); 
+    //--></script>
+    </div>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-15773275-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+          &nbsp; </div> 
+    </div>
+    
+    
+    
+
+    
+  <!-- end .container -->
+    
+    </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,80 @@
+
+#wrap{
+	width:100%;
+	margin:0 auto;
+	text-align:left;
+	margin-top:5%;
+	padding:1%;
+	background:#FFF;
+	font-size:100%;
+}
+#wrap .cont_details fieldset,.cont_order fieldset{
+	margin:1%;
+	padding:2%;
+    -moz-border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -khtml-border-radius: 1%;
+    border-radius: 1%;
+}
+#wrap legend{
+	font-size:130%;
+	color:#000;
+}
+#wrap .cont_details input{
+	color:#000;
+}
+#wrap .input1:hover,.input1:active{
+	
+}
+#wrap label{
+	font-size:90%;
+	color:#000;
+    line-height: 50%;
+    font-weight:bold;
+}
+#wrap label.inlinelabel
+{
+    display:inline;
+}
+#wrap .cont_order input{
+	margin-bottom: 2%;
+}
+
+
+#wrap input[type="radio"]
+{
+margin-top:1em;
+margin-bottom:1em;
+}
+
+#wrap input[type="text"]:hover,
+#wrap input[type="text"]:active {
+background-color: #FAF398;
+}
+
+#wrap input#submit
+{
+margin:1%;
+padding-left:2%;
+padding-right:2%;
+padding-top:1%;
+padding-bottom:1%;
+}
+
+#wrap div#totalPrice
+{
+    padding:1%;
+    font-size: 90%;
+    line-height: 120%; 
+    background-color:#fefaf8;
+}
+
+#wrap label.radiolabel
+{
+font-weight:normal;
+ display:inline;
+}
+
+#wrap .title{
+    font-size: 100%;
+}
